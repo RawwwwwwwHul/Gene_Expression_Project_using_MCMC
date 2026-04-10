@@ -4,11 +4,6 @@
 
 This project uses **Bayesian Logistic Regression (MCMC via Stan)** to classify breast cancer subtypes (**Basal vs Luminal**) from gene expression data.
 
-Unlike standard models, it provides both:
-
-* Predictions
-* Uncertainty estimates
-
 ---
 
 ## Method
@@ -22,9 +17,8 @@ Unlike standard models, it provides both:
 
 ## Results
 
-* Accurate classification
+* Accurate classification (Accuracy score=1.0, maybe because of lesser samples to work with)
 * Good MCMC convergence (R̂ ≈ 1)
-* Higher uncertainty near decision boundary
 
 ---
 
@@ -39,7 +33,7 @@ https://www.kaggle.com/datasets/brunogrisci/breast-cancer-gene-expression-cumida
 
 ## Tech Stack
 
-* Python (NumPy, sklearn, matplotlib)
+* Python (Pandas, NumPy, sklearn, matplotlib)
 * R (rstan, bayesplot)
 
 ---
